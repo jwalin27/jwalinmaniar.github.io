@@ -54,14 +54,48 @@
 			</div>
 			</div>
     <!-- CONTACT MODAL -->
-    <div  id="contact-modal" class="modal blue-grey">
+     <div  id="contact-modal" class="modal blue-grey">
       <div class="modal-content black-text container">
-        <h5>Send me an Email!</h5>
+    <h4>Send me an Email!</h4>
         <div class="divider"></div>
         <!-- Contact Form -->
-        <iframe src="https://docs.google.com/forms/d/1yd-0GqeLMD5F2Aixe7Y1uWYyhmnuj29cXYEcF34mBvk/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <div class="row">
+          <form class="col s12" action="MAILTO:jwalin27@gmail.com" method="
+          post">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email" data-error="Invalid Format">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea" class="materialize-textarea" length="120"></textarea>
+                <label for="textarea">Message</label>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light modal-action modal-close" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+            <button class="btn waves-effect waves-light modal-action modal-close" >Close
+              <i class="material-icons right">clear</i>
+            </button>
+          </form>
+        </div>
+        
         </div>
 
+	</div>
       </div>
 
     </div>
