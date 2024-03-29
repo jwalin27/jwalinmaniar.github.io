@@ -1,2 +1,2 @@
-<?php include_once("index.html") ?> 
+<?php header("Location: http://www.https://j-web-iota.vercel.app/"); ?>
 
